@@ -1,0 +1,29 @@
+Middleware:
+app.use(express.urlencoded({extended:true})),app.use(express.json())=use to pass data form page to page or to database.
+app.use(express.static('public')=link all static files in public folder or it tell express that all static file is store in public folder such as stylesheet,images
+
+
+
+
+monhoodr.set('strictQuery',false)=this will remove some warning that we got when we connect to database
+
+
+
+package:
+express-session=help us to store session in our database.so when use log in they kept log in\
+passport =help for login sign in ,sign up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://raddy.dev/blog/build-a-notes-app-using-nodejs-express-mongodb-passport/
